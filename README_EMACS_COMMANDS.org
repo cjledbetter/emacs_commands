@@ -1,0 +1,101 @@
+* Emacs Commands
+** Remapping keys
+   ***Example
+ 
+    + C-x C-u ==> upcase-region
+    + remap keys to undo
+    + (define-key global-map "\C-x\C-u" 'undo)
+    + Example if hit upcase... by mistake for undo
+
+
+** File Handling Commands
+   
+  | Keystrokes | Command Name                 |
+  | - -------- | ------------                 |
+  | C-x C-f    | find-file                    |
+  | C-x C-v    | find-alternate-file          |
+  | C-x i      | insert-file                  |
+  | C-x C-s    | save-buffer                  |
+  | C-x C-w    | write-file                   |
+  | C-x C-c    | save-buffers-kill-emacs      |
+  | C-h        | help-command                 |
+  | C-h f      | describe-function            |
+  | C-h k      | describe-key                 |
+  | C-h t      | help-with-tutorial           |
+  | C-h i      | info-goto-emacs-command-node |
+  
+** Cursor Movement Command
+  
+  | Keystrokes | Command Name        |
+  | - -------- | ------------        |
+  | C-f        | forward-char        |
+  | C-b        | backward-char       |
+  | C-p        | previous-line       |
+  | C-n        | next-line           |
+  | M-f        | forward-word        |
+  | M-b        | backward-word       |
+  | C-a        | begining-of-line    |
+  | C-e        | end-of-line         |
+  | M-e        | forward-sentence    |
+  | M-a        | backward-sentence   |
+  | M-}        | forward-paragraph   |
+  | M-{        | backward-paragraph  |
+  | C-v        | scroll-up           |
+  | M-v        | scroll-down         |
+  | C-x ]      | forward-page        |
+  | C-x [      | backward-page       |
+  | M-<        | beginning-of-buffer |
+  | M->        | end-of-buffer       |
+  | M-g M-g    | goto-line           |
+  | M-g g      | goto-line           |
+  | none       | goto-char           |
+  | C-l        | recenter            |
+  | M-(n)      | digit-argument      |
+  | C-u (n)    | universal-argument  |
+
+** Commands For Working With Regions (Cut, Copy, Paste, Yank, Kill)
+
+ | Keystrokes     | Command Name             |
+ | - --------     | ------------             |
+ | C-@ or C-Space | set-mark-command         |
+ | C-x C-x        | exchange-point-and-mark  |
+ | C-w            | kill-region              |
+ | C-y            | yank                     |
+ | M-w            | kill-ring-save           |
+ | M-h            | mark-paragraph           |
+ | C-x C-p        | mark-page                |
+ | C-x h          | mark-whole-buffer        |
+ | M-y            | yank-pop                 |
+ | none           | clipboard-kill-region    |
+ | none           | clipboard-yank           |
+ | none           | clipboard-kill-ring-save |
+
+** Transposition Commands
+  
+  | Keystrokes | Command Name         |
+  | - -------- | ------------         |
+  | C-t        | transpose-chars      |
+  | M-t        | transpose-words      |
+  | C-x C-t    | transpose-lines      |
+  | none       | transpose-sentences  |
+  | none       | transpose-paragraphs |
+
+** Captializatioin Commands
+ 
+  | Keystrokes | Command Name                     |
+  | - -------- | ------------                     |
+  | M-c        | capitalize-word                  |
+  | M-u        | upcase-word                      |
+  | M-l        | downcase-word                    |
+  | Met -M-c   | negative-augment;capitalize-word |
+  | Meta-M-u   | negative-augment;upcase-word     |
+  | Meta-M-l   | negative-augment;downcase-word   |
+
+  | Keystrokes | Command Name    |
+  | - -------- | ------------    |
+  | C-g        | keyboard-quit   |
+  | C-x u      | advertised-undo |
+  | C-_        | undo            |
+  | C-/        | undo            |
+  | none       | revert-buffer   |
+
