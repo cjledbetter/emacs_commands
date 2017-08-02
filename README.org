@@ -91,6 +91,7 @@
   | Meta-M-u   | negative-augment;upcase-word     |
   | Meta-M-l   | negative-augment;downcase-word   |
 
+** Stopping and Undoing Commands
   | Keystrokes | Command Name    |
   | - -------- | ------------    |
   | C-g        | keyboard-quit   |
