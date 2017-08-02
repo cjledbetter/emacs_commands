@@ -1,6 +1,6 @@
 * Emacs Commands
 ** Remapping keys
-   ***Example
+*** Example
  
     + C-x C-u ==> upcase-region
     + remap keys to undo
